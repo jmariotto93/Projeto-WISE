@@ -1,0 +1,287 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Wise</title>
+    <link rel="shortcut icon" type="imagex/png" href="./assets/img/logo.png">
+    <!-- Inclua as folhas de estilo do Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <!-- Inclua o FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+
+
+
+    <link rel="stylesheet" href="./assets/css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700;900&display=swap" rel="stylesheet">
+
+</head>
+
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary p-0">
+            <div class="p-0 container-fluid">
+                <div id="trapezioRetanguloDaNavbar">
+                    <a href="index.php" class="navbar-brand">
+
+                        <img src="./assets/img/logo.png" id="imagemNavBar" alt="Logo da empresa">
+                    </a>
+                </div>
+                <button class="navbar-toggler m-1" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" id="menuToggle">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav gap-5" id="linksDoMenu">
+                        <li class="nav-item d-flex justify-content-center align-items-center">
+                            <a class="nav-link active" aria-current="page" href="#backgroundContainerId">Início</a>
+                        </li>
+                        <li class="nav-item d-flex justify-content-center align-items-center">
+                            <a class="nav-link" href="#containerDaSection2">Sobre</a>
+                        </li>
+                        <li class="nav-item d-flex justify-content-center align-items-center">
+                            <a class="nav-link" href="#containerDaSection3">Serviços</a>
+                        </li>
+                        <li class="nav-item d-flex justify-content-center align-items-center">
+                            <a class="nav-link" href="#containerDoFormulario">Contato</a>
+                        </li>
+
+
+                    </ul>
+                    <div class="navbar-nav justify-content-start flex-grow-1" id="iconsEButtonNavbar">
+                        <li class="nav-item d-flex justify-content-center align-items-center"><a href="https://www.facebook.com/unicamarketing4?mibextid=ZbWKwL" target="_blank" class="nav-link "><i class="fab fa-facebook"></i></a>
+                        </li>
+                        <li class="nav-item d-flex justify-content-center align-items-center"><a href="https://instagram.com/unicamarketing4?igshid=MWhqdm9nMGFmcDZ1NQ==" target="_blank" class="nav-link"><i class="fab fa-instagram"></i></a></li>
+                        <li class="nav-item d-flex justify-content-center align-items-center"> <a href="mailto:josemarioto@gmail.com" class="nav-link" target="_blank"><i class="far fa-envelope"></i></a>
+                        </li>
+                        <li class="nav-item d-flex justify-content-center align-items-center"><button id="buttonMenuOrcamento">Orçamento</button>
+                        </li>
+                        <li class="nav-item d-flex justify-content-center align-items-center"><a href="https://api.whatsapp.com/send?5512991140812" target="_blank" id="whatsappIcon" class="nav-link"><i class="fab fa-whatsapp"></i></a></li>
+
+                    </div>
+
+
+                </div>
+            </div>
+        </nav>
+
+    </header>
+
+    <!--Fim da header-->
+    <!-- ------------------------------------------------------------------------- -->
+
+    <main>
+        <!--Começo da section 1 -->
+        <section id="backgroundContainerId">
+            <div class="container">
+
+                <h1 id="tituloDaSection1" class="hidden">Cuidamos da contabilidade da sua empresa</h1>
+                <div class="hidden">
+                    <button id="buttonSectionSolicitarProposta">Solicitar proposta</button>
+                </div>
+
+                <div>
+                    <ul class="iconsDaSection1">
+
+                        <li class="hidden">
+
+                            <i class="fas fa-certificate"></i>
+                            <p>Escrituração</p>
+                        </li>
+
+                        <li class="hidden">
+                            <i class="fas fa-book"></i>
+                            <p>Gestão Tributária</p>
+                        </li>
+
+                        <li class="hidden">
+                            <i class="fas fa-file"></i>
+                            <p>Assessoria preventiva</p>
+                        </li>
+
+                        <li class="hidden">
+                            <i class="fas fa-building"></i>
+                            <p>Assessoria societária</p>
+                        </li>
+
+                    </ul>
+
+                </div>
+
+
+
+
+            </div>
+
+        </section>
+        <!--Fim da section 1 -->
+
+        <!-- ------------------------------------------------------------ -->
+
+        <!--Começo da section 2 -->
+
+        <section id="containerDaSection2" class="hidden">
+            <div id="descriptionDaEmpresa">
+
+                <article id="articleSobreAEmpresa">
+                    <h2 id="tituloSobreEmpresa">Conheça nossa empresa</h2>
+                    <P>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sed culpa, id optio, ipsum debitis
+                        numquam
+                        eveniet, qui ad atque placeat quisquam beatae libero? Iusto ullam obcaecati ex quod saepe
+                        itaque.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam quas minus dolore porro obcaecati
+
+                    </P>
+
+                </article>
+
+
+
+                <article id="articleMissaoDaEmpresa">
+                    <div id="divDoIcon">
+                        <p>Missão</p>
+                        <i class="fas fa-eye"></i>
+                    </div>
+
+                    <div>
+                        <P id="descriptionDaMissao">
+                            <strong>A missão</strong> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
+                            accusamus libero voluptatibus praesentium incidunt facere nihil doloribus voluptates qui!
+                            Repudiandae necessitatibus nihil maiores quo adipisci quidem a ea sequi neque!
+                        </P>
+                    </div>
+
+
+                </article>
+
+                <div class="d-grid">
+
+                    <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                        Saiba Mais
+                    </button>
+
+                    <div class="collapse" id="collapseExample">
+                        <div class="card card-body" id="escritaDoButtonCollapse">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio blanditiis nisi impedit
+                            laborum consequuntur doloremque! Illum, aliquam? Quos illo sed iure perspiciatis porro
+                            itaque soluta magnam voluptate corporis? Possimus, dolores.
+                        </div>
+                    </div>
+
+                </div>
+
+
+            </div>
+            <div id="containerImagensSection2">
+                <figure class="hidden">
+                    <img class="imgDaSection2" src="./assets/img/section21.jpg" alt="Trabalho de Contabilidade">
+                </figure>
+                <figure class="hidden">
+                    <img id="imgSection22" class="imgDaSection2" src="./assets/img/section22.jpg" alt="Relatórios de Contabilidade">
+
+                </figure>
+
+            </div>
+        </section>
+
+        <!--Fim da section 2 -->
+
+        <!-- ------------------------------------------------------------ -->
+
+        <!--Começo da section 3 -->
+
+        <section id="containerDaSection3" class="hidden">
+
+            <div id="divDoNossosServicos">
+                <h3 id="tituloDoNossoServicos">Nossos Serviços</h3>
+                <div class="divDosIcons">
+                    <ul id="iconsDaSection3">
+
+                        <li class="hidden">
+
+                            <i class="fas fa-certificate"></i>
+                            <p>Escrituração</p>
+                        </li>
+
+                        <li class="hidden">
+                            <i class="fas fa-book"></i>
+                            <p>Gestão Tributária</p>
+                        </li>
+
+                        <li class="hidden">
+                            <i class="fas fa-file"></i>
+                            <p>Assessoria preventiva</p>
+                        </li>
+
+                        <li class="hidden">
+                            <i class="fas fa-building"></i>
+                            <p>Assessoria societária</p>
+                        </li>
+
+                    </ul>
+
+                </div>
+
+            </div>
+
+            <figure id="figureDaImagemDaSection3">
+                <img class="imgDaSection3" src="./assets/img/section3.jpg" alt="Equipe de Contabilidade">
+
+            </figure>
+
+        </section>
+
+        <!--Fim da section 3 -->
+
+        <!-- ------------------------------------------------------------ -->
+
+        <!--Começo do formulário -->
+
+        <section id="containerDoFormulario" class="hidden">
+            <h1 class="tituloDoFormulario">Contato</h1>
+            <form class="formulario" method="POST" action="script_enviar_email.php">
+
+                <div class="metade left">
+
+                    <input class="hidden" type="text" placeholder="Nome" name="nome" required="">
+                    <input class="hidden" type="email" placeholder="E-mail" name="email" required="">
+                    <input class="hidden" type="text" placeholder="Assunto" name="assunto" required="">
+
+
+                </div>
+
+                <div class="metade right">
+                    <textarea class="hidden" name="mensagem" type="text" placeholder="Mensagem" required=""></textarea>
+                    <input class="hidden" type="submit" value="Enviar mensagem" id="buttonDoFormulario">
+                </div>
+
+
+            </form>
+        </section>
+
+        <!--Fim do formulário -->
+
+        <!-- ------------------------------------------------------------ -->
+
+    </main>
+
+    <footer>
+        <div id="divDaDescriptionFooter">
+            <p>©Todos Direitos Reservados WISE 2023 </p>
+        </div>
+    </footer>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous">
+    </script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="./assets/js/script.js"></script>
+
+</body>
+
+</html>
